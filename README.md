@@ -9,6 +9,7 @@ This repository hosts the BFF application of the Currency Converter tool.
    - [How to Checkout](#how-to-checkout)
    - [How to Build](#how-to-build)
    - [How to Run Locally](#how-to-run-locally)
+   - [How to Run Unit Tests](#how-to-run-unit-tests)
 3. [Features](#features)
 
 ## Introduction

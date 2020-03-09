@@ -10,13 +10,13 @@ const TTL = config.get('TTL');
 const fetchExchangeRates = async () => {
   return new Promise((resolve, reject) => {
     let currentTime = +new Date();
-    if (exchangeRates & (lastUpdate + TTL > currentTime)) {
-      lastUpdate = currentTime;
+    if (exchangeRates && lastUpdate + TTL > currentTime) {
       resolve(exchangeRates);
     } else {
       axios
         .get(CURRENCY_SERVICE_URL)
         .then((response) => {
+          lastUpdate = currentTime;
           exchangeRates = response.data.rates;
           resolve(exchangeRates);
         })

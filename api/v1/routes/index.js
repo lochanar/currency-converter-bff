@@ -58,7 +58,7 @@ const router = express.Router();
  *              type: array
  *              items:
  *                  type: CurrencyObj
- * CurrencyObj:
+ *  CurrencyObj:
  *      type: object
  *      properties:
  *          code:
@@ -68,7 +68,7 @@ const router = express.Router();
  *              type: number
  *              example: 19.2051642
  *
- * CountryNotFound:
+ *  CountryNotFound:
  *      type: object
  *      properties:
  *          status:
