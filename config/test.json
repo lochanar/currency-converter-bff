@@ -1,0 +1,8 @@
+{
+  "PORT": 3001,
+  "COUNTRY_SERVICE_URL": "https://mock.com/",
+  "CURRENCY_SERVICE_URL": "http://mock.net/",
+  "TTL": 360000,
+  "JWT_SECRET": "mockmeee",
+  "MAX_LOGIN_REQUESTS_PER_MINUTE": 2
+}

@@ -4,5 +4,5 @@
   "CURRENCY_SERVICE_URL": "http://data.fixer.io/api/latest?access_key=1d977a7f4e93d642afe995f805315de6",
   "TTL": 360000,
   "JWT_SECRET": "donttellanyone",
-  "MAX_LOGIN_REQUESTS_PER_MINUTE": 2
+  "MAX_LOGIN_REQUESTS_PER_MINUTE": 30
 }
