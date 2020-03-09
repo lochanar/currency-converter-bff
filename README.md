@@ -64,4 +64,4 @@ In order to run the app in the development mode:
 $ yarn start
 ```
 
-Visit [http://localhost:3000](http://localhost:3001) in the browser to use the app!
+Visit [http://localhost:3001/api-docs/](http://localhost:3001/api-docs/) in the browser to visit the swagger doc!
