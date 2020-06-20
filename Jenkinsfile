@@ -3,20 +3,21 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''echo "Yarning"
-yarn'''
+        sh 'echo "Yarning"'
+        sh 'yarn'
       }
     }
 
     stage('Test') {
       steps {
-        sh '''echo "Testing"
-yarn test'''
+        sh 'echo "Testing"'
+        sh 'yarn test'
       }
     }
 
     stage('Deploy') {
       steps {
+        sh 'echo "Starting"'
         sh 'yarn start'
       }
     }
